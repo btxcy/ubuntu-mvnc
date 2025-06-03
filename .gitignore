@@ -21,3 +21,6 @@ scrap*
 secret*
 TODO*
 *.log
+.DS_Store
+
+!docker/hooks/secrets.rc

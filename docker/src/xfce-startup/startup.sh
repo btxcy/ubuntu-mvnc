@@ -193,6 +193,9 @@ main() {
     ### this handles also '--skip-vnc' and '--skip-novnc' options
     start_vnc
 
+    ### remove startup files for minimal
+    [ -d /dockerstartup ] && rm -f /dockerstartup/*
+
     ### command array expands to all elements quoted as a whole
     execute_command "${_arg_command[*]}"
 

@@ -1,6 +1,6 @@
 # Headless Ubuntu/Xfce containers with VNC/noVNC
 
-## Project `accetto/ubuntu-vnc-xfce-g3`
+## Project forked from `accetto/ubuntu-vnc-xfce-g3`
 
 Version: G3v8
 
