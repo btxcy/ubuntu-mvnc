@@ -331,10 +331,7 @@ RUN mkdir -p "${HOME}"/.config/vlc \
     && echo "aout=none" >> "${HOME}"/.config/vlc/vlcrc
 
 # only for mint
-RUN rm "${HOME}"/readme* \
-    
-    && rm -rf "${HOME}"/Desktop/README* \
-    && rm -rf "${HOME}"/Desktop/versionsticker.desktop
+RUN rm -rf "${HOME}"/Desktop/versionsticker.desktop
 
 USER "${HEADLESS_USER_ID}"
 
