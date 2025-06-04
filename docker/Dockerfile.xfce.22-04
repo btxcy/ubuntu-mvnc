@@ -9,7 +9,7 @@ ARG ARG_HEADLESS_USER_ID=1001
 ARG ARG_HEADLESS_USER_NAME=mint
 ARG ARG_HEADLESS_USER_GROUP_ID=1001
 ARG ARG_HEADLESS_USER_GROUP_NAME=mint
-ARG ARG_SUDO_INITIAL_PW=mint
+ARG ARG_SUDO_INITIAL_PW=mintroot
 ARG ARG_HOME=/home/mint
 
 
@@ -332,8 +332,9 @@ RUN mkdir -p "${HOME}"/.config/vlc \
 
 # only for mint
 RUN rm "${HOME}"/readme* \
+    
     && rm -rf "${HOME}"/Desktop/README* \
-    && rm -rf "${HOME}"/Desktop/versionsticker.desktop \
+    && rm -rf "${HOME}"/Desktop/versionsticker.desktop
 
 USER "${HEADLESS_USER_ID}"
 

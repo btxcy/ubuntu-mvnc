@@ -1,6 +1,6 @@
 # Headless Ubuntu/Xfce containers with VNC/noVNC
 
-## Project forked from `accetto/ubuntu-vnc-xfce-g3`
+## Project forked from `accetto/ubuntu-vnc-xfce-g3` Modified For MINT Program
 
 Version: G3v8
 
