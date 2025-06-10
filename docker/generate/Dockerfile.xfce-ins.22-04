@@ -56,8 +56,8 @@ RUN \
         net-tools \
         isc-dhcp-server \
         iproute2 \
-        vim 
-
+        vim \
+        traceroute
 
 #################
 ### stage_xserver
